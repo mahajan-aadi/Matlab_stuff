@@ -1,7 +1,9 @@
 clc;clear all;close all;
-LineData=[1 2 0.02   0.04  -1   1
-          2 3 0.0125 0.025 -0.5 1
-          3 1 0.01   0.03  -0.5 1];
+LineData=[1 2 0.2   0.8  -0.02   1
+          2 3 0.3 0.9 -0.3 1
+          2 4 0.25 1 0.04 1
+          3 4 0.2 0.80 .02 1
+          3 1 0.1   0.4  -0.01 1];
 N1=LineData(:,1);Nr=LineData(:,2);
 R=LineData(:,3);X=LineData(:,4);Bc=j*LineData(:,5);
 a=LineData(:,6);

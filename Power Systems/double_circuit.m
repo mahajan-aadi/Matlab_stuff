@@ -5,6 +5,7 @@ clc;
 clear all;
 close all;
 
+%ratings
 radius=0.75*10^-2;
 ac_=4;
 bb_=5.5;
